@@ -794,6 +794,7 @@ body {
   color: #ffffff;
   font-weight: 400;
   letter-spacing: 2px;
+  text-shadow: 5px 8px 5px rgb(0, 0, 0) !important;
 }
 
 /* FILTROS Y ORDENAMIENTO */
@@ -1048,6 +1049,33 @@ body {
   background-color: rgba(39, 18, 114, 0.1843137255);
 }
 
+.p-content-nosotros {
+  width: 80%;
+  height: 50vh;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 1083px) {
+  .p-content-nosotros {
+    width: 85%;
+    height: 65vh;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 700px) {
+  .p-content-nosotros {
+    width: 100%;
+    height: 80vh;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 560px) {
+  .p-content-nosotros {
+    width: 100%;
+    height: 80vh;
+    font-size: 1.2rem;
+  }
+}
 /* ANIMACIONES */
 @keyframes float {
   0%, 100% {
