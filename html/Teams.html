@@ -121,6 +121,7 @@
     </header>
 
     <!-- Offcanvas del carrito -->
+    <!-- Offcanvas del carrito -->
     <div
       class="offcanvas offcanvas-end"
       tabindex="-1"
@@ -135,12 +136,19 @@
           type="button"
           class="btn-close btn-close-white"
           data-bs-dismiss="offcanvas"
-          aria-label="Close"
+          aria-label="Close "
         ></button>
       </div>
       <div class="offcanvas-body mainbar-content">
-        <p>Tu carrito está vacío</p>
-        <!-- Aquí puedes agregar los productos del carrito -->
+        <div
+          class="productos-carrito d-flex justify-content-around align-items-center pt-2 fw-bold"
+        >
+          <p>Productos</p>
+          <p>Subtotal</p>
+        </div>
+        <div class="d-flex flex-column justify-content-end btn-agregar mt-5">
+          <p>El Carrito De Compras Esta vacío</p>
+        </div>
       </div>
     </div>
 
@@ -251,15 +259,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
-  </body>
-</html>
-
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../js/main.js"></script>
   </body>
 </html>
