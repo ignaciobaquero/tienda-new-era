@@ -83,7 +83,7 @@ $text-shadow: 0 0 20px rgba(111, 66, 193, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 15px;
+  padding-bottom: 2px;
 }
 
 .img-carrito {
@@ -113,6 +113,16 @@ $text-shadow: 0 0 20px rgba(111, 66, 193, 0.5);
 
 .offcanvas-title {
   color: rgb(132, 0, 255);
+}
+
+.productos-carrito {
+  border-bottom: solid 1px #ffcccc;
+  border-top: solid 1px #ffcccc;
+  font-family: sans-serif;
+}
+
+.btn-gradient {
+  background-color: #241b44 !important;
 }
 
 /* FONDO */
