@@ -71,8 +71,10 @@
           <!-- Collapse: Menú + Buscador -->
           <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-1">
-              <li class="nav-item title-navs btn">
-                <a class="nav-link active text-white fw-bold" href="#"
+              <li class="nav-item title-tienda btn">
+                <a
+                  class="nav-link active text-white fw-bold"
+                  href="../index.html"
                   >Inicio</a
                 >
               </li>
@@ -90,7 +92,7 @@
                   >Nosotros</a
                 >
               </li>
-              <li class="nav-item title-tienda btn">
+              <li class="nav-item title-navs title-tienda btn">
                 <a
                   class="nav-link text-white fw-bold"
                   href="../html/Contacto.html"
@@ -151,17 +153,167 @@
           alt="Gorras"
         />
       </div>
-      <div class="d-flex justify-content-center">
-        <h1 class="title-navs">TEAMS NFL</h1>
-      </div>
-      <div class="d-flex justify-content-center">
-        <img
-          class="img-fluid"
-          src="../assets/9647dd00dbba8cb8763853c054b36cb1.jpg"
-          alt="as"
-        />
-      </div>
     </main>
+    <div class="bg-nav-contact py-3">
+      <div class="container">
+        <nav class="text-muted small">
+          <a href="#" class="text-muted text-decoration-none">Inicio</a>
+          <span class="mx-2">></span>
+          <span>Contacto</span>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Título principal -->
+    <div class="container my-5">
+      <h1
+        class="font-bebas display-3 fw-bold text-center position-relative title-underline mb-5"
+      >
+        CONTACTO
+      </h1>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container mb-5">
+      <div class="row g-4">
+        <!-- Información de contacto y mapa -->
+        <div class="col-lg-6">
+          <!-- Información de contacto -->
+          <div class="bg-white rounded-4 p-4 shadow-lg mb-4 animate-fade">
+            <h2 class="font-bebas h3 text-darkmb-4 fw-bold text-dark">
+              CONTACTANOS
+            </h2>
+
+            <div
+              class="d-flex align-items-center p-3 bg-light rounded-3 border-start border-4 border-secondary mb-3 contact-item transition-all"
+            >
+              <i class="text-secondary me-3 fs-5"></i>
+              <a
+                href="tel:+54 351 533-6529"
+                class="text-dark text-decoration-none fs-6 fw-medium"
+                >+54 351 533-6529</a
+              >
+            </div>
+
+            <div
+              class="d-flex align-items-center p-3 bg-light rounded-3 border-start border-4 border-secondary mb-3 contact-item transition-all"
+            >
+              <i class="fas fa-envelope text-secondary me-3 fs-5"></i>
+              <a
+                href="mailto:ignaciobaquero023@gmail.com"
+                class="text-dark text-decoration-none fs-6 fw-medium"
+                >ignaciobaquero023@gmail.com</a
+              >
+            </div>
+
+            <div
+              class="d-flex align-items-center p-3 bg-light rounded-3 border-start border-4 border-secondary mb-3 contact-item transition-all"
+            >
+              <i class="fas fa-map-marker-alt text-secondary me-3 fs-5"></i>
+              <span class="text-dark fs-6 fw-medium">Córdoba, Argentina</span>
+            </div>
+          </div>
+
+          <!-- Mapa -->
+          <div class="bg-white rounded-4 p-3 shadow-lg animate-fade">
+            <iframe
+              class="w-100 map-iframe border-0"
+              style="height: 350px"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13620.883274452948!2d-64.23047612831307!3d-31.408041624521854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298961a7becfd%3A0x7ae200182592d0de!2sAlto%20Alberdi%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1748909638727!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <div class="col-lg-6">
+          <div class="bg-white rounded-4 p-4 shadow-lg animate-fade">
+            <form id="contactForm" class="needs-validation" novalidate>
+              <div class="mb-4">
+                <label for="nombre" class="form-label fw-semibold text-dark"
+                  >Nombre:</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-lg bg-light border-2 rounded-3"
+                  id="nombre"
+                  name="nombre"
+                  required
+                />
+                <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+              </div>
+
+              <div class="mb-4">
+                <label for="email" class="form-label fw-semibold text-dark"
+                  >Email:</label
+                >
+                <input
+                  type="email"
+                  class="form-control form-control-lg bg-light border-2 rounded-3"
+                  id="email"
+                  name="email"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Por favor ingresa un email válido.
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label for="telefono" class="form-label fw-semibold text-dark"
+                  >Teléfono (Opcional):</label
+                >
+                <input
+                  type="tel"
+                  class="form-control form-control-lg bg-light border-2 rounded-3"
+                  id="telefono"
+                  name="telefono"
+                />
+                <div class="invalid-feedback">
+                  Por favor ingresa un teléfono válido.
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label for="mensaje" class="form-label fw-semibold text-dark"
+                  >Mensaje (Opcional):</label
+                >
+                <textarea
+                  class="form-control form-control-lg bg-light border-2 rounded-3"
+                  id="mensaje"
+                  name="mensaje"
+                  rows="5"
+                  style="resize: vertical"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-gradient btn-lg w-100 text-white fw-semibold rounded-3 py-3"
+              >
+                <i class="fas fa-paper-plane me-2"></i>
+                Enviar Mensaje
+              </button>
+
+              <!-- Alert de éxito (oculto inicialmente) -->
+              <div class="alert alert-success mt-3 d-none" id="successAlert">
+                <i class="fas fa-check-circle me-2"></i>
+                ¡Mensaje enviado exitosamente! Te contactaremos pronto.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="info-bar border-top">
       <div class="container">
         <div class="row">
