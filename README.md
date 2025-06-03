@@ -9,7 +9,7 @@ Características principales:
 - 🛒 Carrito de compras funcional.
 - 📱 Diseño responsive (adaptado a móviles y escritorio) con Bootstrap.
 - ⚡ Efectos visuales con `:hover` para mejorar la interactividad.
-- 📸 Integración con Instagram y redes sociales.
+- Secciones ( Index , Contacto , Nosotros , Productos , Teams )
 
 Tecnologías utilizadas
 
