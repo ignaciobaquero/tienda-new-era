@@ -116,7 +116,6 @@ body {
   background-color: #241b44 !important;
 }
 
-/* FONDO */
 .contenedor-fondo {
   position: fixed;
   top: 0;
@@ -134,7 +133,7 @@ body {
   display: block;
 }
 
-/* IMAGEN PRINCIPAL CON EFECTOS NEON */
+/* IMAGEN DEL DESCUENTO CON EFECTOS NEON */
 .image-container {
   position: relative;
   display: inline-block;
@@ -153,6 +152,11 @@ body {
   box-shadow: 0 0 30px rgba(255, 0, 110, 0.6), 0 0 60px rgba(131, 56, 236, 0.4), 0 0 90px rgba(58, 134, 255, 0.3);
 }
 
+.img-off {
+  width: 200px;
+  height: 200px;
+}
+
 /* CAROUSEL */
 .carousel-container {
   width: 25%;
@@ -164,10 +168,6 @@ body {
 @media (max-width: 768px) {
   .carousel-container {
     width: 250px;
-  }
-  .img-off {
-    width: 200px;
-    height: 200px;
   }
 }
 .carousel-item img {
@@ -306,14 +306,12 @@ body {
   box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4) !important;
 }
 
-/* Contenedor flex para altura uniforme */
 .card-body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-/* Títulos uniformes */
 .gorras-content {
   color: #dbc8c8;
   font-family: "Bebas Neue", sans-serif;
@@ -331,7 +329,6 @@ body {
   justify-content: center;
 }
 
-/* Contenido que se expande */
 .subgorras-content {
   color: #5a42e2;
   font-family: "Bebas Neue", sans-serif;
@@ -341,7 +338,7 @@ body {
   border-radius: 10px;
   padding: 20px;
   background: linear-gradient(135deg, rgba(90, 66, 226, 0.1), rgba(90, 66, 226, 0.05));
-  flex: 1; /* Ocupa el espacio disponible */
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -357,7 +354,7 @@ body {
   margin-bottom: 0;
 }
 
-/* Imagen responsiva centrada */
+/* Imagen de talles */
 .image-container {
   display: flex;
   align-items: center;
@@ -448,7 +445,6 @@ body {
     font-size: 1.3rem;
   }
 }
-/* Altura mínima para mantener uniformidad */
 @media (min-width: 992px) {
   .row-equal-height {
     display: flex;
@@ -605,20 +601,6 @@ body {
     margin: 15px auto 0;
   }
 }
-/* Mobile muy pequeño */
-@media (max-width: 360px) {
-  .title-footer {
-    font-size: 0.9rem;
-  }
-  .subtitle-footer {
-    font-size: 0.65rem;
-    padding: 0 10px;
-  }
-  .iconos {
-    width: 18px;
-    height: 18px;
-  }
-}
 /* Mejoras para el contenedor */
 .info-bar .container {
   max-width: 1200px;
@@ -757,7 +739,7 @@ body {
   min-height: calc(100vh - 50px);
 }
 
-/* BREADCRUMB */
+/* PÁGINA PRODUCTOS */
 .breadcrumb-custom {
   background: transparent;
   padding: 20px 0 10px;
